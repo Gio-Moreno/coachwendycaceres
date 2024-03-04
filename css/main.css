@@ -2421,13 +2421,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/menu-bg.jpg) center;
   background-size: cover;
 }
+.menu {
+  background: linear-gradient(90deg, #b68834, #b68834, #5c4211, #b68834, #b68834);
+  border-radius: 10px;
+  margin-top: 100px;
+  padding: 10px;
+  padding-bottom: 15px;
+  
+}
 
 .single-menu {
-  background-color: #fff;
-  box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.2);
+  background-color: #0F0F0F;
+  box-shadow: 0px 10px 30px 0px rgba(202, 151, 55, 0.267);
   border-radius: 10px;
   padding: 30px 30px;
-  margin-bottom: 10px;
+  color: rgb(199, 199, 199);
+  margin-top: -100px;
+}
+
+.single-menu2 {
+  background-color: #0F0F0F;
+  box-shadow: 0px 10px 30px 0px rgba(202, 151, 55, 0.267);
+  border-radius: 10px;
+  padding: 30px 30px;
+  color: rgb(199, 199, 199);
+  margin-top: 5px;
 }
 
 
@@ -2443,6 +2461,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .title-goals {
   line-height: 130%!important;
+  color: white;
 }
 
 .gallery-area img {
